@@ -1,0 +1,36 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #379683;
+}
+header{
+    font-family: 'Rubik Dirt', cursive;
+    text-align: center;
+    background: white;
+}
+.list{
+    display: inline;
+    align-items: stretch;
+}
+.list-item{
+    
+    display: inline-block;
+    padding: 10px 20px;
+    align-items: stretch;
+    text-decoration: none;
+
+}
+.navbar{
+    background: #05386B;
+}
+.text{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+.form{
+    background: #05386B;
+}
+.button{
+    padding: 10px;
+    margin: 10px;
+}
