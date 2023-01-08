@@ -14,7 +14,7 @@ header{
 .list-item{
     
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 40px;
     align-items: stretch;
     text-decoration: none;
 
@@ -26,6 +26,7 @@ header{
     color: white;
     text-decoration: none;
     font-size: medium;
+    text-align: left;
 }
 #about{
     background: #05386B;
@@ -95,4 +96,10 @@ header{
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="m&mquiz.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
@@ -26,77 +27,56 @@
         </ul>
     </nav>
     <div class="quiz">
-        <h2 class="ques">Q1:what</h2>
+        <h2 class="ques">Q1: Where is your interest?</h2>
         <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
+            <li class="ans"><button id="q1a1">A)Designing</button></li>
+            <li class="ans"><button id="q1a2">B)Developing</button></li>
+            <li class="ans"><button id="q1a3">C)Analysis</button></li>
+            <li class="ans"><button id="q1a4">D)Portable Technology</button></li>
         </ul>
-        <h2 class="ques">Q2:what</h2>
+        <h2 class="ques">Q2: What are you curious about a website?</h2>
         <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
+            <li class="ans"><button id="q2a1">A)Its layout</button></li>
+            <li class="ans"><button id="q2a2">B)How it works</button></li>
+            <li class="ans"><button id="q2a3">C)How is the data being analysed</button></li>
+            <li class="ans"><button id="q2a4">D)Whether this website has an app or not</button></li>
         </ul>
-        <h2 class="ques">Q3:what</h2>
+        <h2 class="ques">Q3: Do you recognise any languages or frameworks</h2>
         <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
+            <li class="ans"><button id="q3a1">A)Illustrator/Photoshop</button></li>
+            <li class="ans"><button id="q3a2">B)HTML/React</button></li>
+            <li class="ans"><button id="q3a3">C)Pyhton</button></li>
+            <li class="ans"><button id="q3a4">D)Kotlin/Java</button></li>
         </ul>
-        <h2 class="ques">Q4:what</h2>
+        <h2 class="ques">Q4: What do you like more?</h2>
         <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
+            <li class="ans"><button id="q4a1">A)Creative Working</button></li>
+            <li class="ans"><button id="q4a2">B)Logic Building</button></li>
+            <li class="ans"><button id="q4a3">c)Future Analytics</button></li>
+            <li class="ans"><button id="q4a4">D)Comprehensive Logics</button></li>
         </ul>
-        <h2 class="ques">Q5:what</h2>
+        <h2 class="ques">Q5: What do you think you would like to become?</h2>
         <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
+            <li class="ans"><button id="q5a1">A)Designer</button></li>
+            <li class="ans"><button id="q5a2">B)Web Developer</button></li>
+            <li class="ans"><button id="q5a3">C)AI/ML Enthusiast</button></li>
+            <li class="ans"><button id="q5a4">D)App Developer</button></li>
         </ul>
-        <h2 class="ques">Q6:what</h2>
+        <h2 class="ques">Q6: Which kind of people do you know more or inspire you more?</h2>
         <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
+            <li class="ans"><button id="q6a1">A)Designer</button></li>
+            <li class="ans"><button id="q6a2">B)Web Developer</button></li>
+            <li class="ans"><button id="q6a3">C)AI/ML Enthusiast</button></li>
+            <li class="ans"><button id="q6a4">D)App Developer</button></li>
         </ul>
-        <h2 class="ques">Q7:what</h2>
-        <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
-        </ul>
-        <h2 class="ques">Q8:what</h2>
-        <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
-        </ul>
-        <h2 class="ques">Q9:what</h2>
-        <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
-        </ul>
-        <h2 class="ques">Q10:what</h2>
-        <ul class="option">
-            <li class="ans">A)</li>
-            <li class="ans">B)</li>
-            <li class="ans">C)</li>
-            <li class="ans">D)</li>
-        </ul>
+        
     </div>
+    <div class="result">
+      <h2 id="result">Your result is...</h2>
+    </div>
+    <div class="restart-button">
+        <button id="restart">Restart</button>
+      </div>
     <footer>
         <p>
             <a href="#" class="text" >Back To Top</a>

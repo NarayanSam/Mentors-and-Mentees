@@ -26,6 +26,7 @@ header{
     color: white;
     text-decoration: none;
     font-size: medium;
+    text-align: left;
 }
 h2{
     display: flex;
@@ -33,4 +34,7 @@ h2{
     align-items: center;
     height: 200px;
    
+}
+.main{
+    background-color: #05386B;
 }
