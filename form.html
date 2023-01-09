@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="list">
+            <li class="list-item"><a class="text" href="m&mhome.html">Home</a></li>
+            <li class="list-item"><a class="text" href="m&mhome.html#about">About Us</a></li>
+            <li class="list-item"><a class="text" target="_blank" href="form.html">Contact Us</a></li>
+            <li class="list-item"><a class="text" target="_blank" href="m&mquiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+    <div id="head-container">
+        <div class="container">
+           <h1>CONTACT US</h1> 
+        </div>
+
+        <form action="" id="form" name="form" onsubmit="return validateForm()"  method="post">
+            <div class="fir">
+                <label> NAME:</label>
+            </div>
+            <input type="text" id="second" name="second" placeholder="Enter Your Name"required>
+            <div class="third">
+                <label>PHONE NUMBER:</label>
+            </div>
+            <input type="number" id="fourth" name="fourth" placeholder="Enter Your Phone Number"required>
+            <div class="fifth">
+                <label>ADDRESS:</label>
+            </div>
+            <input type="text" id="sixth" placeholder="Enter The Location" required>
+            <div class="eig">
+                <label>EMAIL:</label>
+            </div>
+            <input type="email" id="nine" placeholder="Enter Your Email" required>
+            <div class="ele">
+                <label>MORE ABOUT YOUR VIEWS AND OPINIONS:</label>
+            </div>
+            <input type="text" id="des" placeholder="More About Your Experience"required>
+           <div class="con"><button type="submit" >Submit</button></div> 
+        </form>
+    </div>
+        <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
