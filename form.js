@@ -18,10 +18,10 @@ const firebaseConfig = {
   function submitForm(e) {
     e.preventDefault();
     var name = document.getElementById("second").value;
-    var emailid = document.getElementById("fourth").value;
-    var phoneno = document.getElementById("sixth").value;
-    var details = document.getElementById("nine").value;
-    var add = document.getElementById("des").value;
+    var emailid = document.getElementById("nine").value;
+    var phoneno = document.getElementById("fourth").value;
+    var details = document.getElementById("des").value;
+    var add = document.getElementById("sixth").value;
     savedetails(name, emailid, phoneno,details,add);
     //   reset the form
     document.getElementById("form").reset();
@@ -29,13 +29,27 @@ const firebaseConfig = {
   
   function validateForm() {
     var returnval = true;
-    let x = document.forms["form"]["fourth"].value;
+    let x = document.forms["form"]["fourth"].value.length;
     if (x!=10) {
       alert("Phone Number Should Be Of 10 Digits");
       returnval = false;
     }
     return returnval;
   }
+  function validate()
+{
+  let y = document.forms["form"]["second"].value;
+   var letter = /^[A-Za-z]+$/;
+   if(y.match(letter))
+     {
+      return true;
+     }
+   else
+     {
+     alert("Please enter only letters in the name field.");
+     return false;
+     }
+}    
   const savedetails = (name, emailid, phoneno,details,add) => {
     var newContactForm = contactFormDB.push();
     newContactForm.set({
